@@ -48,8 +48,10 @@ body * {
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto 0px;
+    height: 100vh;
 }
 /* div é um elemento block. Em elemntos block é possível aplicar 'magin: auto;'.*/
 /* img é um elemento in-line. Não consigo aplicar 'margin: auto;' em elemntos in-line.*/
